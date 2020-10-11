@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhwan portfolio</title>
+    <meta name="description" content="JuHwan">
+    <meta name="author" content="AnJuHwan">
+    <script src="https://kit.fontawesome.com/4ef8fe4c2c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="imgs/Juhwan_logo-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="style.css">    
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="" id="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-dove"></i>
+            <a href="#">JuHwan</a>
+        </div>
+        
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#about">About</li>
+                <li class="navbar__menu__item" data-link="#skills">Skills</li>
+                <li class="navbar__menu__item" data-link="#work">My work</li>
+                <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li> -->
+                <li class="navbar__menu__item" data-link="#contact">Contact</li>
+            </ul>
+        
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="./imgs/MyImage.jpg" alt="img" class="home__avatar">
+            <h1 class="home__title">Hello,<br/> I'm JuHwan</h1>
+            <h2 class="home__description">
+                Front-end developers constantly studying
+            </h2>
+        <button class="home__contact">Contact Me</button>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>
+            저는 끊임없이 생각하며 문제 해결을 즐기는 개발자입니다. <br/>
+            HTML, CSS를 이용한 반응형 웹페이지를 프로젝트로 진행하였고,<br/>
+            Javascript를 공부하면서 동적인 웹사이트도 만들어봅니다.
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">HTML5,CSS</h2>
+                <div class="major__description">HyperText Markup Language <br/>
+                                                Casecading Style Sheets</div>
+            </div>
+
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h2 class="major__title">Javascript</h2>
+                <div class="major__description">Javascript Web APIs</div>
+            </div>
+
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h2 class="major__title">React</h2>
+                <div class="major__description">Cascading Style Sheets</div>
+            </div>
+
+            
+        </div>
+        <div class="about__study">
+            <div class="study">
+                <img src="./imgs/Study-html.png" alt="html-img" class="study__logo">
+                <div class="study__description">
+                    <p class="study__name">HTML , CSS</p>
+                    <p class="study__period"> 2020.03 ~ ing </p>
+                </div>
+            </div>
+    
+            <div class="study">
+                <img src="./imgs/Study-js.png" alt="Javascript-img" class="study__logo">
+                <div class="study__description">
+                    <p class="study__name">Javascript</p>
+                    <p class="study__period"> 2020.08 ~ ing </p>
+                </div>
+            </div>
+
+            <div class="study">
+                <img src="./imgs/java-img.png" alt="Java" class="study__logo">
+                <div class="study__description">
+                    <p class="study__name">Java</p>
+                <p class="study__period"> 2018.03 ~ 2020.03 </p>
+                </div>
+            </div>
+
+            <div class="study">
+                <img src="./imgs/React_logo.png" alt="React" class="study__logo">
+                <div class="study__description">
+                    <p class="study__name">React</p>
+                    <p class="study__period"> 2020.09.25 ~ ing </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+            웹사이트, 웹 개발하는 것에 관심이 있고, 새로운 것을 배우는 데 관심이 있고,<br/>
+            지정된 시간약속을 잘 지키며 어떠한 문제가 있어도 충분히 잘 해결하며<br/>
+            회사의 분위기 속에 잘 적응하여 다닐 수 있다.
+        </p>
+
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title"> Skills </h3>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>HTML</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>Javascript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"
+                        style="width:50%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>React</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"
+                        style="width:50%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset__title"> Tools </h3>
+                    <ul class="tools__list">
+                        <li><span> Visual Studio Code </span></li>
+                        <li><span> Eclipse </span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title"> Etc </h3>
+                    <ul class="etc__list">
+                        <li><span>Search</span></li>
+                        <li><span>Git</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter="*">
+                    All 
+                    <span class="category__count">6</span>
+                </button>
+                <button class="category__btn " data-filter="HTML-CSS">
+                    HTML,CSS 
+                    <span class="category__count">1</span>
+                </button>
+                <button class="category__btn" data-filter="Javascript">
+                    Javascript 
+                    <span class="category__count">3</span>
+                </button>
+                <button class="category__btn" data-filter="React">
+                    React 
+                    <span class="category__count">2</span>
+                </button>
+            </div>
+
+            <div class="work__projects">
+                <a href="https://github.com/AnJuHwan/Javascript-projects/tree/master/Javascript/project-7%20Shopping" 
+                class="project" target="_blank" data-type="Javascript">
+                    <img src="./imgs/project/shoppinglist.png" alt="shoppinglist-img" class="project__img">
+                    <div class="project__description">
+                        <h3>Shopping List</h3>
+                        <span>
+                            Clone coding showpping List <br/>
+                            HTML and CSS javascript
+                        </span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/AnJuHwan/Javascript-projects/blob/master/Javascript/project-1%20Window%20Size/window-size.html" 
+                class="project" target="_blank" data-type="Javascript">
+                    <img src="./imgs/project/windowSize.png" alt="windowSize-img"  class="project__img">
+                    <div class="project__description" >
+                        <h3>Window-size</h3>
+                        <span>
+                            Window Size : javascript
+                        </span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/AnJuHwan/javascript-game/tree/master/project-8%20bug-Game" 
+                class="project" target="_blank" data-type="Javascript">
+                    <img src="./imgs/project/Game.png" alt="Game-img" class="project__img">
+                    <div class="project__description">
+                        <h3>Game</h3>
+                        <span>
+                            Clone coding Game <br/>
+                            HTML and CSS,Javascript
+                        </span>
+                    </div>
+                </a>
+                <a href="https://github.com/AnJuHwan/100persent-html-css/tree/master/final" 
+                class="project" target="_blank" data-type="HTML-CSS">
+                    <img src="./imgs/project/web.png" alt="web-img" class="project__img">
+                    <div class="project__description">
+                        <h3>Web Coding</h3>
+                        <span>
+                            Web coding : HTML and CSS
+                        </span>
+                    </div>
+                </a>
+
+                <a href="https://anjuhwan.github.io/react-habit-tracker/" 
+                class="project" target="_blank" data-type="React">
+                    <img src="./imgs/project/habit-tracker.png" alt="Habit-img" class="project__img">
+                    <div class="project__description">
+                        <h3>Habit-tracker</h3>
+                        <span>
+                            React : Habit-tracker
+                        </span>
+                    </div>
+                </a>
+
+                <a href="https://anjuhwan.github.io/react-Youtube/" 
+                class="project" target="_blank" data-type="React">
+                    <img src="./imgs/project/Youtube.png" alt="Habit-img" class="project__img">
+                    <div class="project__description">
+                        <h3>Youtube</h3>
+                        <span>
+                            React : Use Youtube APIs
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonials
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./imgs/Testimonials/Testimonial.png" alt="Testimonial-img" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Ad voluptas commodi culpa eveniet quaerat hic distinctio aliquam 
+                            laborum quibusdam itaque asperiores incidunt dolore tempora 
+                            explicabo aliquid, placeat et a quos.
+                        </p>
+                        <p class="name"><a href="#">name</a> company</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    
+                    <div class="testimonial__speech-bubble">
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Ad voluptas commodi culpa eveniet quaerat hic distinctio aliquam 
+                            laborum quibusdam itaque asperiores incidunt dolore tempora 
+                            explicabo aliquid, placeat et a quos.
+                        </p>
+                        <p class="name"><a href="#">name</a> company</p>
+                    </div>
+                    <img src="./imgs/Testimonials/Testimonial.png" alt="Testimonial-img" class="testimonial__avatar">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email"> wnghks0531@naver.com </h2>
+        <div class="contact__links">
+            <i class="fab fa-github"></i>
+        </div>
+        <p class="contact__rights">
+            2020 Coding JuHwan : 2020-10-12 UpDate
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
